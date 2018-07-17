@@ -1,0 +1,65 @@
+@import '~foundation-sites/scss/foundation';
+
+@include foundation-everything;
+
+$green: #157539;
+$red: #f10000;
+
+html,
+body {
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .content {
+    flex: 1 0 auto;
+  }
+  .footer {
+    flex: 0 0 auto;
+    height: 100px;
+    background-color: #000;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .logout-button {
+    display: none;
+  }
+  .button-radius {
+    border-radius: 3px;
+  }
+  input {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+  }
+  .stack-line {
+    color: $green;
+  }
+  .auth-message {
+    display: none;
+    font-size: 16px;
+    text-align: right;
+  }
+  .auth-message-alert {
+    color: $red;
+  }
+  .menu {
+    li {
+      margin-left: 10px;
+    }
+  }
+  .lead {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+  }
+  table {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+  }
+  .td-center,
+  .th-center {
+    text-align: center;
+  }
+}
+

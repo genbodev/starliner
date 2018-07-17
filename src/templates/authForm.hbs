@@ -1,0 +1,38 @@
+<div class="callout secondary">
+    <form method="post" action="/api/auth/login/" autocomplete="off">
+        <div class="grid-container full">
+            <div class="grid-x align-spaced">
+                <div class="grid-container full">
+                    <div class="grid-y">
+                        <div class="cell">
+                            <label for="login">Login
+                                <input type="text" placeholder="Your login" name="login" id="login">
+                            </label>
+                        </div>
+                        <div class="cell">
+                            <label for="psw">Password
+                                <input type="password" placeholder="Your password" name="psw" id="psw">
+                            </label>
+                        </div>
+                        <div id="auth-message" class="auth-message">Wrong data!</div>
+                    </div>
+                </div>
+                <div class="grid-container full">
+                    <div class="grid-y">
+                        <div class="cell">
+                            <label for="terminal">Terminal
+                                <input type="text" placeholder="Terminal" name="terminal" id="terminal">
+                            </label>
+                        </div>
+                        <div class="cell">
+                            <label for="represent_id">Represent ID
+                                <input type="text" placeholder="Represent ID" name="represent_id" id="represent_id">
+                            </label>
+                        </div>
+                        <button type="submit" class="button alert">Authorization Now!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

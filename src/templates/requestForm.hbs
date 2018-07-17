@@ -1,0 +1,42 @@
+<div class="callout success">
+    <form method="post" action="/api/train/route/" autocomplete="off">
+        <div class="grid-container full">
+            <div class="grid-x align-spaced">
+                <div class="grid-container full">
+                    <div class="grid-y">
+                        <div class="cell">
+                            <label for="from">Train number
+                                <input type="text" placeholder="Train number" name="train" id="train">
+                            </label>
+                        </div>
+                        <div class="cell">
+                            <label for="to">Departure station
+                                <input type="text" placeholder="Departure station" name="from" id="from">
+                            </label>
+                        </div>
+                        <div class="cell">
+                            <label for="to">Arrival station
+                                <input type="text" placeholder="Arrival station" name="to" id="to">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-container full">
+                    <div class="grid-y">
+                        <div class="cell">
+                            <label for="day">Departure date
+                                <input type="text" placeholder="Departure date" name="day" id="day">
+                            </label>
+                        </div>
+                        <div class="cell">
+                            <label for="month">Month of departure
+                                <input type="text" placeholder="Month of departure" name="month" id="month">
+                            </label>
+                        </div>
+                        <button type="submit" class="button success">Request!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,6 @@
+module.exports = {
+	browsers: {
+        canary: '%LOCALAPPDATA%\\Google\\Chrome SxS\\Application\\chrome.exe',
+        default: true
+    }
+};

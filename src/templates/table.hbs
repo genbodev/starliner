@@ -1,0 +1,24 @@
+<div class="">
+    <p class="lead">Train route</p>
+</div>
+
+<table class="hover unstriped stack">
+    <thead>
+    <tr>
+        <th>Stop</th>
+        <th class="th-center" width="150">Arrival time</th>
+        <th class="th-center" width="150">Departure time</th>
+        <th class="th-center" width="150">Stop time</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each this}}
+        <tr>
+            <td>{{stop}}</td>
+            <td class="td-center">{{arrival_time}}</td>
+            <td class="td-center">{{departure_time}}</td>
+            <td class="td-center">{{stop_time}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
